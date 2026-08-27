@@ -1,31 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-    <key>items</key>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>https://raw.githubusercontent.com/moktipmoktipe-arch/Beamza-/main/app.ipa</string>
-                </dict>
-            </array>
-            <key>metadata</key>
-            <dict>
-                <key>bundle-identifier</key>
-                <string>com.beamza.app</string>
-                <key>bundle-version</key>
-                <string>1.0</string>
-                <key>kind</key>
-                <string>software</string>
-                <key>title</key>
-                <string>Beamza App</string>
-            </dict>
-        </dict>
-    </array>
-</dict>
-</plist>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install App</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f2f2f7; }
+        .btn { background: #007aff; color: white; padding: 18px 36px; font-size: 20px; font-weight: bold; text-decoration: none; border-radius: 14px; box-shadow: 0 4px 10px rgba(0,122,255,0.3); }
+        .btn:active { opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://moktipmoktipe-arch.github.io/Beamza-/manifest.plist">
+        📲 กดติดตั้งแอปพลิเคชัน
+    </a>
+
+</body>
+</html>
