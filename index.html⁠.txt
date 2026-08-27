@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install App</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f2f2f7; }
+        .btn { background: #007aff; color: white; padding: 16px 32px; font-size: 18px; font-weight: bold; text-decoration: none; border-radius: 14px; }
+    </style>
+</head>
+<body>
+    <!-- เปลี่ยน USERNAME และ REPO_NAME เป็นของ GitHub คุณ -->
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://USERNAME.github.io/REPO_NAME/manifest.plist">
+        กดติดตั้งแอปพลิเคชัน
+    </a>
+</body>
+</html>
